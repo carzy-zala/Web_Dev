@@ -1,0 +1,24 @@
+div{
+    border: 2px solid black;
+    border-radius: 10px;    /*to give curve at corner*/
+}
+
+p{
+    border-color: black;
+    border-style: solid;   /*To give border type*/
+    border-width: 2px;
+}
+
+span{
+    /* border-style:dotted; */
+    border-bottom:dashed;  /*to ive distinct border style*/
+    border-top: solid;
+    border-left: double;
+    border-right: dotted;
+    border-width: 2px;
+    border-top-color: springgreen;  /*To give border distinct color*/
+    border-left-color: steelblue;
+    border-right-color: tomato;
+    border-bottom-color: yellowgreen;
+    border-top-left-radius: 5px;
+}

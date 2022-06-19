@@ -1,0 +1,34 @@
+<!-- 
+css connect with link tag in html called external css
+css declare in head tsg called internal css
+css declare in tag using style attribut called inline css
+
+  arj 
+   ---css which define later has always precedence
+   ---inline>external>link (if link first)
+   ---inline>link>external (if link later)
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is made for check css</title>
+    <link rel="stylesheet" href="selector.css"> 
+</head>
+<body>
+    <p id ="mobno">id selector</p>
+    <a href="https://goggle.com">element selector</a>
+    <div  class="redele pinkbg"> class selector</div>
+     <p class="redele pinkbg">class selector</p>
+    <ul>
+        <li>groupin selector</li>
+        <ol>
+            <li>groupin selector</li>
+        </ol>
+    </ul>
+</body>
+</html>

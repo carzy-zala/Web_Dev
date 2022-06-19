@@ -1,0 +1,31 @@
+*{                                   /*to select all element*/
+    box-sizing: border-box;  /*box size for fix padding/margin */
+}
+    
+.box
+{
+    border: 2px solid rgb(234 15 15);
+    
+    /* Genral value given */
+    padding:33px;
+    margin:15px;
+    
+    /* padding/margin=top left bottom right
+    padding: 23px 23px 12px 23px;
+    margin:5px 5px 5px 5px; */
+
+    /* Give manually value of padding /margin
+    padding-left: 23px;
+    padding-right: 12px ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px; */
+    /* width: 320px;   //set width but value change accorading chang in padding and margin  */
+
+    
+
+}

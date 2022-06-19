@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is form</title>
+    <!-- <link rel="stylesheet" href="selector.css"> -->
+</head>
+<body>
+    <form action="backend.php">
+        <label for="nam">Name:</label>
+        <div> <input type="text"required class="redele pinkbg" id="nam"></div><br>
+        <div>Email ID: <input type="email"class="redele pinkbg" id="mobno"></div><br>
+        <div> Mobile No.:<input type="number" class="redele pinkbg"></div><br>
+        <div>Role: <input type="text"></div><br>
+        <div>I am eligible ?<input type="checkbox" name="mycheck" checked></div>
+        <div>Gender :
+            Male<input type="radio" name="mg" >
+            Female<input type="radio" name="mg">
+            Other<input type="radio" name="mg">
+        </div>
+        <div>
+            <label for="car">car</label>
+            <select name="yc" id="Car">
+            <option value="">--Select from this--</option>
+            <option value="Zala">Zala</option>
+            <option value="jnz">Jayraj</option>    
+            </select>
+
+        </div>
+        <div>
+            Date: <input type="date" name="td" id="" >
+        </div>
+        <div>
+            About Yourself :<textarea name="About Yourself" id="" cols="100" rows="1"></textarea>
+        </div>
+        
+        <div><input type="submit" value="submit"></div>
+        <div><input type="reset" value="Reset"></div>
+    </form>
+</body>
+</html>

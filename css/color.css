@@ -1,0 +1,17 @@
+/* declaring color are same for all color topic */
+
+#fpar
+{
+    color:green;    /* Color by  name */
+}
+
+#spar
+{
+    border:2px solid rgb(6, 34,45); /*This take values in red green blue*/
+}
+
+#tpar
+{
+    background-color: #ff0811;  /*Take values in 
+    hexadecimal  (ff for red)(08 for green)(11 for blue)*/
+}

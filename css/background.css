@@ -1,0 +1,24 @@
+/*                  //some properties of background
+
+background colour use for the set background color
+backgrount image for set image in background
+we cant set image in the span 
+height and width simply set byy their name 
+background position simple for the set position 
+*/
+
+span{
+    background-color: blue;
+}
+
+p{
+    width: 440px;
+    height: 450px;
+    background-image:url('https://lh3.googleusercontent.com/ogw/ADea4I7M7XUWTIvplkLKq36UREatV0F_BhU6uVn0t9hf3Q=s192-c-mo') ;
+    background-position-x:0px;
+    background-repeat: no-repeat;
+    /* background-position: center center;                   //here (y,x) position like this*/
+    background-position-x: left;
+    background-position-y: top;  
+
+}

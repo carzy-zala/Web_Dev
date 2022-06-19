@@ -1,0 +1,65 @@
+/*
+--------------------------- Flex Box -------------------------
+- flex box is one of container property it make our work easy
+- It is tool that help us to align the content in row and cloloumn
+- it is in one dimendion layout
+ */
+
+ .container{
+     display: flex ;
+      /*to make content as flex*/
+
+      /* Flex Property */
+
+      /* ---------------- For Container ------------------ */
+
+      /* - To do flex in any direction  */
+      flex-direction: row; /* By default value */
+      flex-direction: column; /* make flex in coloumn - it like make inline element in coloumn*/
+      flex-direction:column-reverse;/* make flex in reverse coloumn */
+      flex-direction: row-reverse; /* make flex in reverse row */
+
+
+       /* - To do wrapping in content */
+
+       flex-wrap: nowrap; /* By default value and content not wrap*/
+       flex-wrap: wrap; /* wrapping of content start,wrapping done from R->L left goes down */
+       flex-wrap: wrap-reverse; /*to do reverse wrapping, wrapping done from L->R right goes down*/
+
+       /* Note:- flex-flow is short hand of direction and wrap */
+       flex-flow: row wrap; /*Type of these*/
+
+       /* - To do justification of the content in horizontal direction */
+       justify-content: center;/*to do center alignment horizontally*/
+       justify-content: end;/*to do end alignment*/
+       justify-content: space-around; /*to give space around each container equally*/
+       justify-content: space-between;/*to give space space between the box excluding end and start*/
+       justify-content: space-evenly; /*to give space in box including the end and start*/
+
+       /* - To do justification in vertical direction */
+       align-items: center;/*make vertically centre*/
+       align-items: flex-end;/*make flex at end*/
+       align-items: flex-start;/*by default value and make flex at start*/
+       align-items: stretch;/*it give strech property to container*/
+ }
+
+ #item{
+     order:2; /*to give order of the item*/
+     /*Note :- higher the order of the item come at the end */
+
+     /* - To manuplate item when browser size grow */
+     flex-grow: 3;
+     
+     /* - To manuplate item when browser size shrink */
+     flex-shrink: 3 ;
+
+     /* - To change by default values of conteint item  */
+     flex-basis: 33px ; 
+     /* Note : It manuplate width when horizontal
+               It manuplate height when alignment verticle */
+
+    /* - To do align own self of align-items */
+    align-self: center; /* to centre particular*/
+    align-self: flex-end; /* to set at end particular*/
+    align-self: flex-start; /* to set at start particular*/
+ }
